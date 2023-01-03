@@ -17,7 +17,6 @@ body {
     ),
     url("https://ak0.picdn.net/shutterstock/videos/18113110/thumb/1.jpg");
 }
-
 #app {
   display: flex;
   flex-direction: column;
@@ -29,7 +28,7 @@ body {
 }
 
 h1 {
-  margin: 30px 0px 0;
+  margin: 10px 0px;
   font-size: 47px;
   color: #ffe9e6;
 }
@@ -41,7 +40,7 @@ textarea {
   border-radius: 10px;
 }
 .headline {
-  margin-top: 60px;
+  margin-top: 30px;
   /* padding-left: 20px; */
 }
 
@@ -55,20 +54,24 @@ textarea {
   text-align: center;
 }
 
-.entry {
-  /* background: rgba(59, 74, 107, 0.4); */
+/* .entry {
+  background: rgba(59, 74, 107, 0.4);
   background: linear-gradient(
     to left,
     rgba(32, 123, 228, 0.75),
     rgba(252, 177, 109, 0.5)
   );
-}
+} */
 
+#entryHolder div {
+  width: 100px;
+  height: 100px;
+}
 #entryHolder {
   display: flex;
   justify-content: space-around;
   height: 20vh;
-  padding: 25px;
+  padding: 25px 0;
 }
 
 #date {
