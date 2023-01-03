@@ -58,7 +58,7 @@ textarea {
 .entry {
   /* background: rgba(59, 74, 107, 0.4); */
   background: linear-gradient(
-    to bottom,
+    to left,
     rgba(32, 123, 228, 0.75),
     rgba(252, 177, 109, 0.5)
   );
